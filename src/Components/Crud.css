@@ -1,0 +1,89 @@
+table, td, th {  
+    border: 1px solid #ddd;
+    text-align: center;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 42%;
+    margin: 10px;
+    
+  }
+  
+  th, td {
+    padding: 15px;
+    font-size: 22px;
+  }
+
+  h1{
+    display: flex;
+    justify-content: left;
+    margin: 10px;
+    align-items: center;
+    margin-right: 46px;
+
+  }
+
+  .container{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .heading{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .value label{
+   display: block;
+   font-size: 25px;
+   margin: 6px 0px;
+   font-weight: 550;
+  }
+
+  .value input{
+    width: 284px;
+    margin-right: 20px;
+    font-size: 20px;
+    height: 30px;
+    border-radius: 5px;
+  }
+ 
+  .value span{
+    display: block;
+    color: red;
+  }
+
+  form button{
+    font-size: 20px;
+    background-color:tomato;
+    color: white;
+    border-radius: 5px;
+    margin:10px 0px;
+    width: 120px;
+    height: 49px;
+    cursor: pointer;
+  }
+
+  form button:disabled{
+    opacity: 0.6;
+  
+  }
+  form button:hover:enabled{
+    color: rgb(251, 229, 241);
+    background-color: rgb(141, 141, 3);
+  }
+
+  td span{
+    display: block;
+    opacity: 0.8;
+  }
+  .fa-solid{
+    color: rgb(5, 51, 36);
+  }
+
+  .trash{
+    font-size: 12px;
+  }
+
+  

@@ -1,0 +1,14 @@
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: tomato;
+    box-shadow: 4px 4px 15px tomato;
+    
+}
+
+.navbar h1{
+    color: white;
+    font-size: 2.5rem;
+    text-shadow:4px 4px 4px #18a991;
+}
